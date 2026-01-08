@@ -19,3 +19,4 @@ spec:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"
               value: "auth-service.default"
+              # value: "auth-service.myapp"

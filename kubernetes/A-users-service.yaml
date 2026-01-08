@@ -5,7 +5,8 @@ metadata:
 spec:
   selector:
     app: users
-  type: LoadBalancer
+  # type: LoadBalancer
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 8080

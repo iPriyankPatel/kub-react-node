@@ -5,7 +5,8 @@ metadata:
 spec:
   selector:
     app: tasks
-  type: LoadBalancer
+  # type: LoadBalancer
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 8000
