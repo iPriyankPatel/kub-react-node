@@ -7,6 +7,8 @@ const axios = require('axios');
 
 const filePath = path.join(__dirname, process.env.TASKS_FOLDER, 'tasks.txt');
 
+console.log("tasks filePath >>>>> ", filePath);
+
 const app = express();
 
 app.use(bodyParser.json());
